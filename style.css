@@ -36,13 +36,13 @@ Author URI: http://www.kindawannadothat.com
 h1, h2, h3, h4, h5, .marker{font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
 h1 {word-spacing:-.07em;letter-spacing:-0.05em;}
 
-body {font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;font-size:96%; line-height:1.5em;}
+body {font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;font-size:90%; line-height:1.5em;}
 
-h1 {font-size: 4.3em;line-height:1em; font-weight:bolder;}
-h2 {font-size: 2em;}
-h3 {font-size: 1.6em;}
-h4 {font-size: 1.4em;}
-h5 {font-size: 1.2em;}
+h1 {font-size: 2.2em;line-height:1em; font-weight:bolder;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1em;}
+h4 {font-size: .75em;}
+h5 {font-size: .5em;}
 
 strong {font-weight:bolder;color:#333;font-style:italic;}
 
