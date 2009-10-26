@@ -1,0 +1,98 @@
+/*
+Theme Name: Stubborn
+Theme URI: http://stubborntheme.wordpress.com
+Description: White, really simple, large
+Author: Ted Heich
+Author URI: http://www.kindawannadothat.com
+*/
+
+/* LAYOUT */
+
+#wrap {width:800px;margin-left:40px;margin-right:auto;margin-top:0px;margin-bottom:auto;}
+
+#header, #content, #footer, #relatedpost, #commentsarea, #postnavigation, #bookmarkarea {
+	padding-top:20px;padding-bottom:20px;
+}
+
+
+#content {}
+#bookmarkarea {}
+#commentarea {}
+#postnavigation {margin-top:20px;}
+
+#relatedpost{margin-top:20px;}
+#header {}
+#footer {
+	border-top: 3px dotted #a0a0a0;	
+}
+
+#searcharea { float: right;margin-left: 40px;}
+	#searcharea #s {width: 300px;color:gray;height: 30px;text-align: center;
+		font-weight: bolder;
+	}
+
+/* fonts  and headings */
+
+h1, h2, h3, h4, h5, .marker{font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+h1 {word-spacing:-.07em;letter-spacing:-0.05em;}
+
+body {font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;font-size:96%; line-height:1.5em;}
+
+h1 {font-size: 4.3em;line-height:1em; font-weight:bolder;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+
+strong {font-weight:bolder;color:#333;font-style:italic;}
+
+.marker {font-size: 2em;padding-bottom: 20px;}
+
+.alert, .note, .command, pre, code {
+	padding: 15px 15px 15px 15px;
+}
+
+.note {background:#e5f2fa;}
+.alert {background: #e5f2fa;border: 3px solid #7ca08b;}
+.command {
+	border: 2px solid #7ca08b;
+	font-family: "Courier New", Courier, mono;
+}
+
+pre {font-family: "Courier New", Courier, mono;background: #e5f2fa;}
+code {font-family: "Courier New", Courier, mono;color: #606060;}
+
+blockquote {border-top: 3px dotted #7ca08b;border-bottom: 3px dotted #7ca08b; font-weight: bolder;font-size: larger;text-align:center;}
+blockquote.left {float:left;}
+blockquote.right {float:right;}
+
+/* input elements */
+
+input, textarea {border: 3px solid #a0a0a0;width:270px;}
+textarea {width:500px;}
+input.btn {background: whitesmoke;border: 3px solid #a0a0a0;}
+
+
+/* links */
+
+
+a {
+	color:black;
+	text-decoration:none;
+	border-bottom:none;
+	font-weight:bolder;
+}
+
+a:hover {
+	color: #e60000;
+	text-decoration: none;
+	border-bottom;none: ;
+}
+
+/* images */
+
+img {border: 4px solid #504e4f;margin: 20px 20px 20px 20px;}
+img.alignright{float: right;}
+img.alignleft{float: left;}
+img.alignnone{}
+img#wpstats{display:none;}

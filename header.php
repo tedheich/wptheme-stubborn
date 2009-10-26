@@ -1,0 +1,1 @@
+<strong><a href=<?php bloginfo('home')?>><?php bloginfo('name')?></a></strong> is written by Ted Heich. If you want to see some sort of an <a href='archives'>index</a> of everything, you can <a href="http://www.kindawannadothat.com/archives">click here</a>.
