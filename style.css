@@ -22,12 +22,10 @@ Author URI: http://fornoobs.info
 
 #relatedpost{margin-top:20px;}
 #header {}
-#footer {
-	border-top: 3px dotted #a0a0a0;	
-}
+#footer {border-top: 1px solid #a0a0a0;	font-size:77%}
 
 #searcharea { float: right;margin-left: 40px;}
-	#searcharea #s {width: 300px;color:gray;height: 30px;text-align: center;
+	#searcharea #s {width: 400px;color:gray;height: 30px;text-align: center;
 		font-weight: bolder;
 	}
 
@@ -68,7 +66,7 @@ blockquote.right {float:right;}
 
 /* input elements */
 
-input, textarea {border: 3px solid #a0a0a0;width:270px;}
+input, textarea {border: 1.5px solid #a0a0a0;width:270px;}
 textarea {width:500px;}
 input.btn {background: whitesmoke;border: 3px solid #a0a0a0;}
 
@@ -79,14 +77,14 @@ input.btn {background: whitesmoke;border: 3px solid #a0a0a0;}
 a {
 	color:black;
 	text-decoration:none;
-	border-bottom:none;
+	border-bottom:1px solid #e60000;
 	font-weight:bolder;
 }
 
 a:hover {
 	color: #e60000;
 	text-decoration: none;
-	border-bottom;none: ;
+	border-bottom:1px dotted #e60000 ;
 }
 
 /* images */
@@ -96,3 +94,5 @@ img.alignright{float: right;}
 img.alignleft{float: left;}
 img.alignnone{}
 img#wpstats{display:none;}
+
+.contentmeta {font-size:75%;}

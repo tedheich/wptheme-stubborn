@@ -16,14 +16,13 @@
 						<?php the_title();?>
 					</a>
 				</h1>
+				<div class="contentmeta">
+					By: <?php the_author();?>, on <?php the_time('n.j.Y');?>, filed under 
+					<?php the_category(', ')?> and tagged as <?php the_tags('',' | ','')?> . 
+				</div>
 				<?php the_content();?>
 				
 				<?php wp_link_pages();?>
-				
-				<div class="contentmeta">
-					Written by <strong><?php the_author();?></strong>, on <?php the_time('n.j.Y');?>, 
-					filed under <?php the_category(', ')?> and tagged <?php the_tags('',', ','')?> . 
-				</div>		
 				
 				<div id="relatedpost">
 

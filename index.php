@@ -17,12 +17,14 @@
 						<?php the_title();?>
 					</a>
 				</h1>
+				<div class="contentmeta">
+					By: <?php the_author();?>, on <?php the_time('n.j.Y');?>, filed under 
+					<?php the_category(', ')?> and tagged as <?php the_tags('',' | ','')?> . 
+				</div>
 				<?php the_excerpt();?>
 				
 				<div class="contentmeta">
-					Written by <strong><?php the_author();?></strong>, on <?php the_time('n.j.Y');?>, 
-					filed under <?php the_category(', ')?> and tagged <?php the_tags('',' | ','')?> . 
-					<a href=<?php the_permalink();?>>Continue reading <?php the_title(); ?> &rarr;</a>
+					<a href=<?php the_permalink();?>>Read more &rarr;</a>
 				</div>
 							
 			<?php endwhile;?>
