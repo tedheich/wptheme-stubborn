@@ -33,7 +33,7 @@
 			<?php posts_nav_link(' &#8212; ', __('&laquo; Newer Posts'), __('Older Posts &raquo;')); ?>
 			
 		<?php else :?>
-			You shouldn't see this page, it means I haven't written anything yet.
+			I didn't find anything of the sort, would like to look at the <a href='archives'>INDEX</a> instead?
 		<?php endif;?>			
 	</div>
 	
