@@ -1,0 +1,140 @@
+/*
+Theme Name: Stubborn
+Theme URI: http://fornoobs.info/stubborn-theme
+Description: White, really simple, large
+Author: Ted H. 
+Author URI: http://fornoobs.info
+
+This file is part of the WordPress Stubborn Theme.
+
+   Stubborn theme is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   The Stubborn theme is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with the Stubborn theme.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+
+/* LAYOUT */
+
+#wrap {width:728px;margin-left:40px;margin-right:auto;margin-top:0px;margin-bottom:auto;}
+
+#header, #content, #footer, #relatedpost, #commentsarea, #postnavigation, #bookmarkarea {
+	padding-top:20px;padding-bottom:20px;
+}
+
+
+#content {}
+#bookmarkarea {font-size:85%;}
+  #bookmarkarea a {color:#407855;}
+		#bookmark a:hover {
+			color: #e60000;
+			text-decoration: none;
+			border-bottom:1px solid #e60000 ;
+		}
+
+
+#commentarea {}
+#postnavigation {margin-top:20px; font-size:85%;}
+  #postnavigation a {color:#407855;}
+	 #postnavigation a:hover {
+		color: #e60000;
+		text-decoration: none;
+		border-bottom:1px solid #e60000 ;
+	}
+
+#relatedpost{margin-top:20px;}
+#header {}
+#footer {border-top: 1px solid #a0a0a0;	font-size:77%}
+
+#searcharea { float: right;margin-left: 40px;}
+	#searcharea #s {width: 400px;color:gray;height: 30px;text-align: center;
+		font-weight: bolder;
+	}
+
+/* fonts  and headings */
+
+/*h1, h2, h3, h4, h5, .marker{font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }*/
+h1,h2,h3,h4,h5, .marker {font-family:Georgia,"Times New Roman",Times , serif;}
+
+h1 {word-spacing:-.07em;letter-spacing:-0.05em;}
+
+body {font-family: Georgia, "Times New Roman", Times, serif;font-size:95%; 
+      line-height:1.5em;word-spacing:.15em;color:#4a4a4a;
+		background:#f5f5f5;}
+
+
+
+h1 {font-size: 1.2em;line-height:1em; }
+h2 {font-size: .98em;}
+h3 {font-size: .94;}
+h4 {font-size: .90em;}
+h5 {font-size: ..84em;}
+
+strong {font-weight:bolder;color:#333;font-style:italic;}
+
+.marker {font-size: 2em;padding-bottom: 20px;}
+
+.alert, .note, .command, pre, code {
+	padding: 15px 15px 15px 15px;
+}
+
+.note {background:#ececec#407855;}
+.alert {border: 1px dotted #6a6a6a;}
+.command {
+	border: 1px solid #f5f5f5;
+	font-family: "Courier New", Courier, mono;color:white;background:#6a6a6a;
+}
+
+pre {font-family: "Courier New", Courier, mono;background: #ececec;}
+code {font-family: "Courier New", Courier, mono;color: #606060;}
+
+blockquote {border-top: 3px dotted #7ca08b;border-bottom: 3px dotted #7ca08b; font-weight: bolder;font-size: larger;text-align:center;}
+blockquote.left {float:left;}
+blockquote.right {float:right;}
+
+/* input elements */
+
+input, textarea {border: 1.5px solid #a0a0a0;width:270px;}
+textarea {width:500px;}
+input.btn {background: whitesmoke;border: 3px solid #a0a0a0;}
+
+
+/* links */
+
+
+a {
+	color:black;
+	text-decoration:none;
+	border-bottom:1px solid #a0a0a0;
+	font-weight:bolder;
+}
+
+a:hover {
+	color: #e60000;
+	text-decoration: none;
+	border-bottom:1px solid #e60000 ;
+}
+
+/* images */
+
+img {border: 1px solid #504e4f;margin: 20px 20px 20px 20px;}
+img.alignright{float: right;}
+img.alignleft{float: left;}
+img.alignnone{}
+img#wpstats{display:none;}
+
+.contentmeta {font-size:90%;}
+  .contentmeta a {color:#407855;}
+		.contentmeta a:hover {
+			color: #e60000;
+			text-decoration: none;
+			border-bottom:1px solid #e60000 ;
+		}
